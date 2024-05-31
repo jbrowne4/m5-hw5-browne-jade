@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("/Images/background.png");
+}
+
+header {
+    background-color: rgb(105, 138, 116);
+    padding: 20px 30px; /*top/bottom and left/right */
+    border-bottom: solid 5px rgb(14, 102, 235);
+}
+
+h1 {
+    display: inline-block;
+    width: 30%;
+}
+
+nav {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+nav a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+.containter {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main {
+    display: inline-block;
+    width: 65%;
+    background-color: white;
+    padding: 25px;
+}
+
+.headshot {
+    float: left;
+    margin-right: 20px;
+}
+
+.subheading {
+    font-size: 32px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 140%;
+    font-family: sans-serif;
+}
+
+aside {
+    background-color: white;
+    width:20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px;
+}
+
+h3 {
+    margin: 20px 0 10px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li a { /* link to website button */
+    background-color: rgb(19, 20, 20);
+    padding:10px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(105, 138, 116);
+    text-align: center;
+    color: white;
+    padding: 20px 0; /*check and update */
+    margin-top: 20px;
+}
